@@ -1,3 +1,9 @@
+:root{
+    --main-bg-color: black;
+    --main-text-color: #fff
+}
+
+
 body{
     height: 200vh;
 }
