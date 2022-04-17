@@ -1,6 +1,9 @@
+/* Using CSS variables */
+
 :root{
     --main-bg-color: black;
-    --main-text-color: #fff
+    --main-text-color: #fff;
+    
 }
 
 
