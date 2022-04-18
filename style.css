@@ -1,12 +1,6 @@
 /* Using CSS variables */
 
-:root{
-    --main-bg-color: black;
-    --main-text-color: #fff;
-    --main-font-size: 1.25rem;
-    --main-shadow: 0px 15px 20px rgba(70, 70, 70, 0.5);
-    
-}
+
 
 
 body{
