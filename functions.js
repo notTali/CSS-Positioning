@@ -37,8 +37,6 @@ const calcSqureArea = (length) => {
 
 console.log(calcSqureArea(10));
 
-const Hello = (name, age) => {
-    return `${name} is ${age} years old`;
-};
+const Hello = (name, age) => `${name} is ${age} years old`;
 
 console.log(Hello("Talifhani", 23));
