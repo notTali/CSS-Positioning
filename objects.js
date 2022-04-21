@@ -1,9 +1,31 @@
 
+// const blogs = [
+//     {
+//         tittle: "Hello world!", 
+//         likes: 21
+//     },
+    
+//     {
+//         tittle: "How to start coding", 
+//         likes: 50
+//     }
+// ];
+
 let user = {
     name: "Talifhani",
     age: 23,
     location: "Cape Town",
-    blogs: ["How to study", "Cooking fish"],
+    blogs: [
+        {
+            tittle: "Hello world!", 
+            likes: 21
+        },
+        
+        {
+            tittle: "How to start coding", 
+            likes: 50
+        }
+    ],
 
     login() {
         return `${this.name} has logged in.`;
@@ -13,7 +35,7 @@ let user = {
         console.log("User wrote the following blogs:");
         // console.log(this.blogs);
         this.blogs.forEach(blog => {
-            console.log("--- " + blog);
+            console.log("--- " + blog.tittle, blog.likes);
         });
     }
 };
