@@ -4,7 +4,9 @@ function greet(){
 
 //function expression
 const speak = function(){
-
+    console.log("function expression");
 };
 
 greet();
+
+speak();
