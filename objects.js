@@ -52,3 +52,5 @@ console.log(user.login());
 user.logBlogs();
 // let upper = user.name.toUpperCase();
 // console.log(upper);
+
+
