@@ -61,6 +61,12 @@
 
 let people = ["talifhani", "rilinde", "mulisa", "ambani", "whitney", "mashudu"];
 
-people.forEach((person, index) =>{
-    console.log(index, person);
-});
+// people.forEach((person, index) =>{
+//     console.log(index, person);
+// });
+
+const logPerson = (person, index) => {
+    console.log(`Index ${index}, Hello ${person}`);
+};
+
+people.forEach(logPerson); // defining the callback function 
