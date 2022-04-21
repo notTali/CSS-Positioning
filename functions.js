@@ -24,19 +24,43 @@
 // console.log(area);
 
 //arrow functions
-const claculateArea = (radius) => {
-    return 3.14 * radius**2;
-} 
+// const claculateArea = (radius) => {
+//     return 3.14 * radius**2;
+// } 
 
-console.log( claculateArea(5) );
+// console.log( claculateArea(5) );
 
 
-const calcSqureArea = (length) => {
-    return length**2;
-};
+// const calcSqureArea = (length) => {
+//     return length**2;
+// };
 
-console.log(calcSqureArea(10));
+// console.log(calcSqureArea(10));
 
-const Hello = (name, age) => `${name} is ${age} years old`;
+// const Hello = (name, age) => `${name} is ${age} years old`;
 
-console.log(Hello("Talifhani", 23));
+// console.log(Hello("Talifhani", 23));
+
+// const greet = () => `Hello, world!`;
+// console.log(greet())
+
+// const bill = (products, tax) => {
+//     let total = 0;
+//     for (let i = 0; i < products.length; i++){
+//         total += products[i] + products[i]*tax;
+//     }
+
+//     return total;
+// }
+
+// const price = bill([12.5,5,4,12,75,100.50], 0.15);
+// console.log(price);
+
+
+//foreach example of a callback function
+
+let people = ["talifhani", "rilinde", "mulisa", "ambani", "whitney", "mashudu"];
+
+people.forEach((person, index) =>{
+    console.log(index, person);
+});
