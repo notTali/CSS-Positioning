@@ -14,6 +14,6 @@ const section = document.querySelector(".test");
 
 const h1 = document.createElement("h1");
 h1.innerText = "Inner text updated!";
-h1.style.color = "red";
-h1.style.fontSize = "3rem";
+h1.style.background = "plum";
+h1.style.padding = "5px 0px 5px 20px"
 section.append(h1);
