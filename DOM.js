@@ -19,8 +19,7 @@ h1.style.padding = "5px 0px 5px 20px"
 section.append(h1);
 
 
-
-const aTag = document.createElement("d");
+const aTag = document.createElement("p");
 // aTag.setAttribute("href", "#");
 aTag.innerText = "Click Me!"
 aTag.style.padding = "0px 10px";
@@ -37,3 +36,10 @@ aTag.style.fontSize = "1.5rem"
 // console.log(aTag);
 
 section.appendChild(aTag);
+
+console.log(aTag);
+
+
+
+
+
